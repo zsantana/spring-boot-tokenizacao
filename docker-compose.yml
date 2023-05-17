@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  pagto-digital:
+    container_name: spring-teste-pagto-digital
+    image: spring-teste-pagto-digital:v1.0.0
+    environment:
+      - SPRING_SERVER_PORT=$SPRING_SERVER_PORT
+    ports:
+      - $SPRING_SERVER_PORT:$SPRING_SERVER_PORT
+      
+    #networks:
+    #  - "host_bradescocard"
+
+#networks:
+#  host_bradescocard:
+#    name: host_bradescocard
+#    external: true

@@ -1,0 +1,14 @@
+{
+    "cpfCnpj": "71509266062",
+    "processadora": "b2k",
+    "quantidadeCartoes": "1",
+    "listaCartoes": [
+      {
+        "numeroCartao": "4641289999994755",
+        "dataVencimentoCartao": "0325",
+        "tipoCartao": "1",
+        "produto": "AAA",
+        "subProduto": "001"
+      }
+    ]
+  }

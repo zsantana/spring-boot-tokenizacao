@@ -1,0 +1,53 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "cpfCnpj": {
+        "type": "string"
+      },
+      "processadora": {
+        "type": "string"
+      },
+      "quantidadeCartoes": {
+        "type": "string"
+      },
+      "listaCartoes": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "numeroCartao": {
+                "type": "string"
+              },
+              "dataVencimentoCartao": {
+                "type": "string"
+              },
+              "tipoCartao": {
+                "type": "string"
+              },
+              "produto": {
+                "type": "string"
+              },
+              "subProduto": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "numeroCartao",
+              "dataVencimentoCartao",
+              "tipoCartao",
+              "produto",
+              "subProduto"
+            ]
+          }
+        ]
+      }
+    },
+    "required": [
+      "cpfCnpj",
+      "processadora",
+      "quantidadeCartoes",
+      "listaCartoes"
+    ]
+  }

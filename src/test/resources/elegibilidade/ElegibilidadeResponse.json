@@ -1,0 +1,14 @@
+{
+  "codigoRetorno": "00",
+  "listaCartoes": [
+    {
+      "numeroCartao": "4641289999994755",
+      "dataVencimentoCartao": "0325",
+      "tipoCartao": "1",
+      "produto": "AAA",
+      "subProduto": "001",
+      "statusElegibilidade": "E",
+      "statusBloqueioElegibilidade": ""
+    }
+  ]
+}
